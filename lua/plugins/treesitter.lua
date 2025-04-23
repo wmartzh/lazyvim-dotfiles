@@ -18,5 +18,10 @@ return {
         "tsx",
       },
     },
+    textobjects = {
+      move = {
+        enable = false,
+      },
+    },
   },
 }
