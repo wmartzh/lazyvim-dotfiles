@@ -16,6 +16,7 @@ return {
         "yaml",
         "markdown",
         "tsx",
+        "go",
       },
     },
     textobjects = {

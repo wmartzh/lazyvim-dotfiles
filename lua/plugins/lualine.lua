@@ -8,8 +8,8 @@ return {
         winbar = 1500,
       },
       sections = {
-        lualine_a = { "branch" },
-        lualine_b = {},
+        lualine_a = { "mode" },
+        lualine_b = { "lsp_status" },
         lualine_x = {},
         lualine_y = {
           { "progress", separator = " ", padding = { left = 1, right = 0 } },
