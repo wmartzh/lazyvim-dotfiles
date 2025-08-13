@@ -8,10 +8,6 @@ return {
     enabled = false,
   },
   {
-    "folke/todo-comments.nvim",
-    enabled = false,
-  },
-  {
     "nvim-treesitter/nvim-treesitter-textobjects",
     enabled = false,
   },
