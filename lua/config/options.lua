@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.g.lazyvim_picker = "fzf"
+vim.g.loaded_typescript_indent = 1
+-- vim.lsp.set_log_level("trace")
