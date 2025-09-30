@@ -3,5 +3,8 @@
 -- Add any additional options here
 
 vim.g.lazyvim_picker = "fzf"
-vim.g.loaded_typescript_indent = 1
+vim.opt.clipboard = "unnamedplus"
+-- vim.g.loaded_typescript_indent = 1
+vim.g.ts_indent_disabled = { "typescript", "tsx" }
 -- vim.lsp.set_log_level("trace")
+-- vim.lsp.set_log_level("DEBUG", { file = vim.fn.stdpath("cache") .. "/lsp.log" })
